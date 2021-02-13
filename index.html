@@ -71,9 +71,17 @@
                     <input type="date" name="arrival" id="datepicker">
                 </p>-->
                 <div class="recapcha-container">
-                    <div class="recapcha" data-netlify-recaptcha="true"></div>
+                    <script>
+                        function onSubmit(token) {
+                            document.getElementById("form").submit();
+                        }
+
+                    </script>
+                    <!--<div class="recapcha" data-netlify-recaptcha="true"></div>-->
                 </div>
-                <p><button type="submit" class="button big">Send Message</button></p>
+                <p><button class="g-recaptcha button big" data-sitekey="reCAPTCHA_site_key" data-callback='onSubmit' data-action='submit'>Submit</button>
+                    <!--<button type="submit" class="button big">Send Message</button>-->
+                </p>
             </form>
         </div>
     </div>
