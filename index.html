@@ -22,7 +22,6 @@
     <link rel="stylesheet" href="assets/css/albery.css" />
     <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>-->
     <script src="js/lazysizes.min.js" async></script>
-    <script src="https://www.google.com/recaptcha/api.js"></script>
     <link rel="icon" href="images/favicon.ico" type="image/gif" sizes="16x16">
 
 </head>
@@ -70,20 +69,13 @@
                     <label for="arrival">Arrival Date:</label>
                     <input type="date" name="arrival" id="datepicker">
                 </p>-->
-                <div class="recapcha-container">
-                    <script>
-                        function onSubmit(token) {
-                            document.getElementById("form").submit();
-                        }
-
-                    </script>
-                    <!--<div class="recapcha" data-netlify-recaptcha="true"></div>-->
-                </div>
-                <p><button class="g-recaptcha button big" data-sitekey="reCAPTCHA_site_key" data-callback='onSubmit' data-action='submit'>Submit</button>
-                    <!--<button type="submit" class="button big">Send Message</button>-->
-                </p>
-            </form>
+                <div class="recapcha" data-netlify-recaptcha="true"></div>
         </div>
+        <p>
+            <button type="submit" class="button big">Send Message</button>
+        </p>
+        </form>
+    </div>
     </div>
     <!--Calendar
         <div id="intro" class="main">
