@@ -1552,7 +1552,7 @@ table.alt tbody tr td {
     border-bottom: solid 2px #ffffff;
     font-weight: 200;
     font-family: 'Alata', sans-serif;
-    text-transform: none;
+    text-transform: uppercase;
     letter-spacing: 0;
 }
 
