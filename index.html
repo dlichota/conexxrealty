@@ -50,11 +50,8 @@
         <div id="intro" class="main">
             <h2>Contact Me</h2>
             <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-            <div class="elfsight-app-c647cba3-4eb8-4c93-9114-25d983f7ed08"></div>
             <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true" data-netlify-recaptcha="true">
-
                 <label class="hidden">Don’t fill this out if you're human: <input name="bot-field" /></label>
-
                 <p>
                     <label>Your Name: <input type="text" name="name" required /></label>
                 </p>
@@ -64,18 +61,17 @@
                 <p>
                     <label>Message: <textarea name="message" rows="5" placeholder="Be sure to tell me your budget and type of property, and any other questions you may have." required></textarea></label>
                 </p>
-
                 <!--<p>
                     <label for="arrival">Arrival Date:</label>
                     <input type="date" name="arrival" id="datepicker">
                 </p>-->
                 <div class="recapcha" data-netlify-recaptcha="true"></div>
+                <p>
+                    <button type="submit" class="button big">Send Message</button>
+                </p>
+            </form>
+            <div class="elfsight-app-c647cba3-4eb8-4c93-9114-25d983f7ed08"></div>
         </div>
-        <p>
-            <button type="submit" class="button big">Send Message</button>
-        </p>
-        </form>
-    </div>
     </div>
     <!--Calendar
         <div id="intro" class="main">
