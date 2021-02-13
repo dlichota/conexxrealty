@@ -1551,10 +1551,9 @@ table.alt tbody tr td {
     padding: 0 0.5em 0.25em 0.5em;
     border-bottom: solid 2px #ffffff;
     font-weight: 200;
-    font-family: "Alata";
+    font-family: 'Alata', sans-serif;
     text-transform: none;
     letter-spacing: 0;
-    font-display: swap;
 }
 
 #header.alt p {
