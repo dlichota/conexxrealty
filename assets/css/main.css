@@ -1301,7 +1301,7 @@ table.alt tbody tr td {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.25);
-    background-image: url("https://source.unsplash.com/1920x1080/?house,caribbean,sea,ocean,boat");
+    background-image: url("https://source.unsplash.com/collection/32772558/1920x1080");
 }
 
 .item header:hover a {
@@ -1458,7 +1458,7 @@ table.alt tbody tr td {
     -ms-flex-direction: column;
     flex-direction: column;
     padding: 8em 0 6em 0;
-    background-image: url("https://source.unsplash.com/1920x1080/?house,caribbean,sea,ocean,boat");
+    background-image: url("https://source.unsplash.com/collection/32772558/1920x1080");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
