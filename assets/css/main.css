@@ -1400,9 +1400,9 @@ table.alt tbody tr td {
 
 span.a {
     display: inline-block;
-    width: 100px;
+    width: auto;
     height: 100px;
-    padding: 5px;
+    padding: 0.5em;
     margin: 1em;
 }
 
