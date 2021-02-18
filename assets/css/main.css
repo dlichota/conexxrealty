@@ -1398,6 +1398,13 @@ table.alt tbody tr td {
 
 }
 
+span.a {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+}
+
 /* Wrapper */
 
 #wrapper {
