@@ -887,7 +887,7 @@ input[type="radio"]:focus + label:before {
 
 /* Image */
 
-.pics div {
+div.pics {
     max-width: 30%;
     display: inline-block;
 }
