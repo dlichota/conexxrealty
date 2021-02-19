@@ -887,6 +887,11 @@ input[type="radio"]:focus + label:before {
 
 /* Image */
 
+.pics div {
+    max-width: 30%;
+    display: inline-block;
+}
+
 #logo {
     max-width: 20rem;
     text-align: center;
