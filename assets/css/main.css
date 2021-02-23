@@ -260,7 +260,7 @@ p {
     margin: 0 0 2em 0;
 }
 
-h1,
+/*h1,
 h2,
 h3,
 h4,
@@ -367,7 +367,7 @@ pre code {
     line-height: 1.75;
     padding: 1em 1.5em;
     overflow-x: auto;
-}
+}*/
 
 hr {
     border: 0;
@@ -894,7 +894,7 @@ span.pics {
 }
 
 #logo {
-    max-width: 20rem;
+    max-width: 100px;
     text-align: center;
 }
 
