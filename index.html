@@ -142,25 +142,13 @@
                                             </form>
                                         </div>-->
                                     <div class="content">
-                                        <form name="contact" method="POST" data-netlify="true">
-                                            <p>
-                                                <label>Your Name: <input type="text" name="name" /></label>
-                                            </p>
-                                            <p>
-                                                <label>Your Email: <input type="email" name="email" /></label>
-                                            </p>
-                                            <p>
-                                                <label>Your Role: <select name="role[]" multiple>
-                                                        <option value="leader">Leader</option>
-                                                        <option value="follower">Follower</option>
-                                                    </select></label>
-                                            </p>
-                                            <p>
-                                                <label>Message: <textarea name="message"></textarea></label>
-                                            </p>
-                                            <p>
-                                                <button type="submit">Send</button>
-                                            </p>
+                                        <form name='contact' method='POST'><input type='hidden' name='form-name' value='contact' />
+                                            <p><label>Your Name: <input name=name required></label>
+                                            <p><label>Your Email: <input type=email name=email required></label>
+                                            <p><label>Message:<textarea name=message rows=5 placeholder="Be sure to tell us the dates of your stay and any other questions you may have." required></textarea></label>
+                                            <p><label for=arrival>Arrival Date:</label><input type=date name=arrival id=datepicker required>
+                                            <p><input type=submit value="Check Availability">
+                                            <p class=hidden><label>Don’t fill this out if you're human: <input name=bot-field></label>
                                         </form>
                                     </div>
                                 </div>
