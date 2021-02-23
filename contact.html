@@ -57,17 +57,6 @@
                                 <a class="dropdown-item" href="rents.html">For Rent</a>
                             </div>
                         </li>
-                        <!--<li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
-
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="about.html">About Us</a>
-                                <a class="dropdown-item" href="blog.html">Blog</a>
-                                <a class="dropdown-item" href="team.html">Team</a>
-                                <a class="dropdown-item" href="testimonials.html">Testimonials</a>
-                                <a class="dropdown-item" href="terms.html">Terms</a>
-                            </div>
-                        </li>-->
                         <li class="nav-item active">
                             <a class="nav-link" href="contact.html">Contact Us</a>
                         </li>
@@ -110,7 +99,27 @@
                                     </div>
                                     <!--Contact Form-->
                                     <div class="content">
-                                        <form id="contact" method="post" netlify-honeypot="bot-field" data-netlify="true" data-netlify-recaptcha="true">
+                                        <form name="contact" method="POST" data-netlify="true">
+                                            <p>
+                                                <label>Your Name: <input type="text" name="name" /></label>
+                                            </p>
+                                            <p>
+                                                <label>Your Email: <input type="email" name="email" /></label>
+                                            </p>
+                                            <p>
+                                                <label>Your Role: <select name="role[]" multiple>
+                                                        <option value="leader">Leader</option>
+                                                        <option value="follower">Follower</option>
+                                                    </select></label>
+                                            </p>
+                                            <p>
+                                                <label>Message: <textarea name="message"></textarea></label>
+                                            </p>
+                                            <p>
+                                                <button type="submit">Send</button>
+                                            </p>
+                                        </form>
+                                        <!--<form id="contact" method="post" netlify-honeypot="bot-field" data-netlify="true" data-netlify-recaptcha="true">
                                             <fieldset>
                                                 <input type="hidden" name="bot-field" placeholder="Don’t fill this out if you're human:">
                                             </fieldset>
@@ -141,7 +150,7 @@
                                                     </fieldset>
                                                 </div>
                                             </div>
-                                        </form>
+                                        </form>-->
                                     </div>
                                 </div>
                             </div>
