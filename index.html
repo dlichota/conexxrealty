@@ -102,69 +102,74 @@
                         <div class="down-contact">
                             <div class="row">
                                 <div class="col-lg-8">
-                                    <!--<div class="sidebar-item contact-form">-->
-                                    <div class="sidebar-heading">
-                                        <h2>Send us a message</h2>
-                                    </div>
-                                    <!--Contact Form-->
-                                    <div class="content">
-                                        <form name="contact" method="post" netlify-honeypot="bot-field" data-netlify="true">
-                                            <fieldset>
-                                                <input type="hidden" name="bot-field" placeholder="Don’t fill this out if you're human:">
-                                            </fieldset>
-                                            <div class="row">
-                                                <div class="col-md-6 col-sm-12">
-                                                    <fieldset>
-                                                        <input name="name" type="text" id="name" placeholder="Your name" required="">
-                                                    </fieldset>
+                                    <div class="sidebar-item contact-form">
+                                        <div class="sidebar-heading">
+                                            <h2>Send us a message</h2>
+                                        </div>
+                                        <!--Contact Form-->
+                                        <div class="content">
+                                            <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+                                                <div class="row">
+                                                    <div class="col-md-6 col-sm-12">
+                                                        <p>
+                                                            <label>Your Name: <input type="text" name="name" placeholder="Your name" required="" /></label>
+                                                        </p>
+                                                    </div>
+                                                    <div class="col-md-6 col-sm-12">
+                                                        <p>
+                                                            <label>Your Email: <input type="email" name="email" placeholder="Your email" required="" /></label>
+                                                        </p>
+                                                    </div>
+                                                    <div class="col-md-12 col-sm-12">
+                                                        <p>
+                                                            <label>Your Interest: <select name="role[]" multiple>
+                                                                    <option value="buyer">Buyer</option>
+                                                                    <option value="seller">Seller</option>
+                                                                    <option value="renter">Renter</option>
+                                                                </select></label>
+                                                        </p>
+                                                    </div>
+                                                    <div class="col-lg-12">
+                                                        <p>
+                                                            <label>Message: <textarea name="message" rows="6" placeholder="Your Message" required=""></textarea></label>
+                                                        </p>
+                                                        <p>
+                                                            <input type="hidden" name="bot-field" placeholder="Don’t fill this out if you're human:">
+                                                        </p>
+                                                    </div>
+                                                    <div class="col-lg-12">
+                                                        <p>
+                                                            <button type="submit">Send</button>
+                                                        </p>
+                                                    </div>
                                                 </div>
-                                                <div class="col-md-6 col-sm-12">
-                                                    <fieldset>
-                                                        <input name="email" type="email" name="email" placeholder="Your email" required="">
-                                                    </fieldset>
-                                                </div>
-                                                <div class="col-md-12 col-sm-12">
-                                                    <fieldset>
-                                                        <input name="subject" type="text" name="subject" placeholder="Subject">
-                                                    </fieldset>
-                                                </div>
-                                                <div class="col-lg-12">
-                                                    <fieldset>
-                                                        <textarea name="message" rows="6" name="message" placeholder="Your Message" required=""></textarea>
-                                                    </fieldset>
-                                                </div>
-                                                <div class="col-lg-12">
-                                                    <fieldset>
-                                                        <button type="submit">Send Message</button>
-                                                    </fieldset>
-                                                </div>
-                                            </div>
-                                        </form>
+                                            </form>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <!--end of form-->
-                            <!--sidebar-->
-                            <div class="col-lg-4">
-                                <div class="sidebar-item contact-information">
-                                    <div class="sidebar-heading">
-                                        <h2>contact information</h2>
-                                    </div>
-                                    <div class="content">
-                                        <ul>
-                                            <li>
-                                                <h5>+1 284 547 1767</h5>
-                                                <span>PHONE NUMBER</span>
-                                            </li>
-                                            <li>
-                                                <h5>dietmar@conexxrealty.com</h5>
-                                                <span>EMAIL ADDRESS</span>
-                                            </li>
-                                            <li>
-                                                <h5>PO Box 3069, Road Town, Tortola, British Virgin Islands VG1110</h5>
-                                                <span>STREET ADDRESS</span>
-                                            </li>
-                                        </ul>
+                                <!--end of form-->
+                                <!--sidebar-->
+                                <div class="col-lg-4">
+                                    <div class="sidebar-item contact-information">
+                                        <div class="sidebar-heading">
+                                            <h2>contact information</h2>
+                                        </div>
+                                        <div class="content">
+                                            <ul>
+                                                <li>
+                                                    <h5>+1 284 547 1767</h5>
+                                                    <span>PHONE NUMBER</span>
+                                                </li>
+                                                <li>
+                                                    <h5>info@conexxrealty.com</h5>
+                                                    <span>EMAIL ADDRESS</span>
+                                                </li>
+                                                <li>
+                                                    <h5>PO Box 3069, Road Town, Tortola, British Virgin Islands VG1110</h5>
+                                                    <span>STREET ADDRESS</span>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -172,7 +177,6 @@
                     </div>
                 </div>
             </div>
-            <!--</div>-->
         </section>
     </div>
 
