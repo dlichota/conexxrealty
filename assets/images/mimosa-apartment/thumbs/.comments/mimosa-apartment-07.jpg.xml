@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comment version="3.0">
+  <caption/>
+  <note>Luminance HDR 2.6.0
+
+Tonemapping parameters:
+Operator: Drago
+Parameters:
+Bias: 0.85
+------
+PreGamma: 1
+</note>
+  <place/>
+  <categories/>
+</comment>
