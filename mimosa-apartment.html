@@ -13,20 +13,22 @@
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="assets/css/flex-slider.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="assets/js/jquery.flexslider.js"></script>
 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" type="text/css" href="assets/css/slick/slick.css" />
-    // Add the new slick-theme.css if you want the default styling
-    <link rel="stylesheet" type="text/css" href="assets/css/slick/slick-theme.css" />
 
-    <link rel="stylesheet" href="assets/css/owlcarousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/css/owlcarousel/owl.theme.default.min.css">
     <link rel="stylesheet" href="assets/css/fontawesome.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
     <link rel="stylesheet" href="assets/css/albery.css">
     <link rel="icon" href="assets/images/favicon.ico" type="image/gif">
+    <script type="text/javascript" charset="utf-8">
+        $(window).load(function() {
+            $('.flexslider').flexslider();
+        });
+
+    </script>
 
 </head>
 
@@ -178,40 +180,42 @@
                             </div>
                         </div>
                     </div>-->
-                    <div class="slider">
-                        <div>
-                            <img src="assets/images/mimosa-apartment/mimosa-apartment-01.webp" alt="Mimosa Apartment">
-                        </div>
-                        <div>
-                            <img src="assets/images/mimosa-apartment/mimosa-apartment-02.webp" alt="Mimosa Apartment">
-                        </div>
-                        <div>
-                            <img src="assets/images/mimosa-apartment/mimosa-apartment-03.webp" alt="Mimosa Apartment">
-                        </div>
-                        <div>
-                            <img src="assets/images/mimosa-apartment/mimosa-apartment-04.webp" alt="Mimosa Apartment">
-                        </div>
-                        <div>
-                            <img src="assets/images/mimosa-apartment/mimosa-apartment-05.webp" alt="Mimosa Apartment">
-                        </div>
-                        <div>
-                            <img src="assets/images/mimosa-apartment/mimosa-apartment-06.webp" alt="Mimosa Apartment">
-                        </div>
-                        <div>
-                            <img src="assets/images/mimosa-apartment/mimosa-apartment-07.webp" alt="Mimosa Apartment">
-                        </div>
-                        <div>
-                            <img src="assets/images/mimosa-apartment/mimosa-apartment-08.webp" alt="Mimosa Apartment">
-                        </div>
-                        <div>
-                            <img src="assets/images/mimosa-apartment/mimosa-apartment-09.webp" alt="Mimosa Apartment">
-                        </div>
-                        <div>
-                            <img src="assets/images/mimosa-apartment/mimosa-apartment-10.webp" alt="Mimosa Apartment">
-                        </div>
-                        <div>
-                            <img src="assets/images/mimosa-apartment/mimosa-apartment-11.webp" alt="Mimosa Apartment">
-                        </div>
+                    <div class="flexslider">
+                        <ul class="slides">
+                            <li>
+                                <img src="assets/images/mimosa-apartment/mimosa-apartment-01.webp" alt="Mimosa Apartment">
+                            </li>
+                            <li>
+                                <img src="assets/images/mimosa-apartment/mimosa-apartment-02.webp" alt="Mimosa Apartment">
+                            </li>
+                            <li>
+                                <img src="assets/images/mimosa-apartment/mimosa-apartment-03.webp" alt="Mimosa Apartment">
+                            </li>
+                            <li>
+                                <img src="assets/images/mimosa-apartment/mimosa-apartment-04.webp" alt="Mimosa Apartment">
+                            </li>
+                            <li>
+                                <img src="assets/images/mimosa-apartment/mimosa-apartment-05.webp" alt="Mimosa Apartment">
+                            </li>
+                            <li>
+                                <img src="assets/images/mimosa-apartment/mimosa-apartment-06.webp" alt="Mimosa Apartment">
+                            </li>
+                            <li>
+                                <img src="assets/images/mimosa-apartment/mimosa-apartment-07.webp" alt="Mimosa Apartment">
+                            </li>
+                            <li>
+                                <img src="assets/images/mimosa-apartment/mimosa-apartment-08.webp" alt="Mimosa Apartment">
+                            </li>
+                            <li>
+                                <img src="assets/images/mimosa-apartment/mimosa-apartment-09.webp" alt="Mimosa Apartment">
+                            </li>
+                            <li>
+                                <img src="assets/images/mimosa-apartment/mimosa-apartment-10.webp" alt="Mimosa Apartment">
+                            </li>
+                            <li>
+                                <img src="assets/images/mimosa-apartment/mimosa-apartment-11.webp" alt="Mimosa Apartment">
+                            </li>
+                        </ul>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -370,9 +374,6 @@
     <!-- Bootstrap core JavaScript -->
     <script src="assets/js/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="assets/js/slick/slick.min.js"></script>
 
     <!-- Additional Scripts -->
     <script>
@@ -384,11 +385,7 @@
 
     </script>
 
-    <script type="text/javascript" src="assets/js/slick/slick.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/custom.js"></script>
-    <script src="assets/js/owl.js"></script>
-    <script src="assets/js/slick/slick.js"></script>
     <script src="assets/js/isotope.js"></script>
     <script src="assets/js/accordions.js"></script>
     <script language="text/Javascript">
