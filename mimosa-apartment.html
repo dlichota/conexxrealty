@@ -16,6 +16,10 @@
 
 
     <!-- Additional CSS Files -->
+    <link rel="stylesheet" type="text/css" href="assets/slick/slick.css" />
+    // Add the new slick-theme.css if you want the default styling
+    <link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css" />
+
     <link rel="stylesheet" href="assets/css/owlcarousel/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/owlcarousel/owl.theme.default.min.css">
     <link rel="stylesheet" href="assets/css/fontawesome.css">
@@ -174,7 +178,7 @@
                             </div>
                         </div>
                     </div>-->
-                    <div class="owl-carousel">
+                    <div class="slider">
                         <div>
                             <img src="assets/images/mimosa-apartment/mimosa-apartment-01.webp" alt="Mimosa Apartment">
                         </div>
@@ -362,11 +366,14 @@
     <!-- Additional Scripts -->
     <script>
         $(document).ready(function() {
-            $(".owl-carousel").owlCarousel();
-        })
+            $('.slider').slick({
+                setting - name: setting - value
+            });
+        });
 
     </script>
 
+    <script type="text/javascript" src="assets/js/slick/slick.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/custom.js"></script>
     <script src="assets/js/owl.js"></script>
