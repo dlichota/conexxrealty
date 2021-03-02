@@ -9,7 +9,7 @@ i {
 
 i:before,
 i:after {
-    content: '<';
+    content: '⥪';
     position: absolute;
     top: 50%;
     left: 1rem;
@@ -26,7 +26,7 @@ i:after {
 }
 
 i:after {
-    content: '>';
+    content: '⥭';
     left: auto;
     right: 1rem;
 }
