@@ -538,6 +538,7 @@ Wrapper */ #wrapper {
 
 .row {
     padding: 1em;
+    margin: 2em;
 }
 
 #logo {
@@ -1383,4 +1384,37 @@ footer p a:hover {
 
 .m-n {
     margin: 0 !important;
+}
+
+.sale {
+    width: 5em;
+    border: solid;
+    border-color: white;
+    font-family: "Roboto";
+    font-size: 2em;
+    text-decoration-color: white;
+    color: white !important;
+    margin: 0px auto;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.rent {
+    width: 5em;
+    border: solid;
+    border-color: white;
+    font-family: "Roboto";
+    font-size: 2em;
+    text-decoration-color: white;
+    color: white !important;
+    margin: 0px auto;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
 }
