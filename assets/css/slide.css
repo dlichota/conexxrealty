@@ -1,6 +1,6 @@
 i {
     position: relative;
-    display: block;
+    display: flex;
     width: 600px;
     height: 400px;
     overflow: hidden;
