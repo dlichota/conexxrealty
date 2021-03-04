@@ -1437,8 +1437,8 @@ footer p a:hover {
     right: -100vh;
     display: flex;
     align-items: center;
-    max-width: 800px;
-    max-height: 600px;
+    max-width: 640px;
+    max-height: 480px;
     width: 60%;
     height: 80%;
     background-color: #fff;
@@ -1450,7 +1450,7 @@ footer p a:hover {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    width: 40%;
+    width: auto;
     height: 100%;
     overflow: hidden;
 }
