@@ -197,22 +197,15 @@
 
                             <p>The apartment is well appointed with a fully equipped kitchen, easy access and private parking. Marvellous view of the airport and islands in the Caribbean Sea.</p>
                         </div>
-                        <!--<div id="vidBox">
-                            <div id="videCont">
-                                <video autoplay id="v1" loop controls="controls">
-                                    <source src="assets/images/pilothouse/pilothouse.webm" type="video/webm">
-                                    <source src="assets/images/pilothouse/pilothouse.mp4" type="video/mp4">
-                                </video>
-                            </div>
-                        </div>-->
+
                         <div class="container">
                             <a class="button" href="#popup">Pilot House View (video)</a>
                             <div class="popup" id="popup">
                                 <div class="popup-inner">
                                     <div class="popupphoto">
-                                        <video width="640" height="auto" controls autoplay>
+                                        <video width="640" height="auto" controls>
                                             <source src="assets/images/pilothouse/pilothouse.mp4" type=video/mp4 alt="Pilot House Video">
-                                            <source src="assets/images/pilothouse/pilothouse.mp4" type=video/webm alt="Pilot House Video">
+                                            <source src="assets/images/pilothouse/pilothouse.webm" type=video/webm alt="Pilot House Video">
                                             Update your browser to see the video.
                                         </video>
                                     </div>
@@ -220,8 +213,6 @@
                                 </div>
                             </div>
                         </div>
-                        <!--<a class="button" href="javascript:void(0)" id="video1">Video of View</a>-->
-
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -289,13 +280,11 @@
     </footer>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="assets/js/jquery.min.js"></script>
+    <!--<script src="assets/js/jquery.min.js"></script>-->
     <script src="assets/js/jquery-3.1.1.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Additional Scripts -->
-
-    <script src="assets/js/videopopup.js"></script>
     <script src="assets/js/custom.js"></script>
     <script src="assets/js/isotope.js"></script>
     <script src="assets/js/accordions.js"></script>
@@ -310,20 +299,6 @@
         }
 
     </script>
-
-    <!--Video Popup-->
-    <script type="text/javascript">
-        $(function() {
-            $('#vidBox').VideoPopUp({
-                backgroundColor: "#17212a",
-                opener: "video1",
-                maxweight: "640",
-                idvideo: "v1"
-            });
-        });
-
-    </script>
-    <!--Video Popup End-->
 </body>
 
 </html>
