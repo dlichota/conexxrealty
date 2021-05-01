@@ -5960,7 +5960,7 @@ $.widget("ui.draggable", $.ui.mouse, {
 		try {
 
 			// Support: IE9, IE10
-			// If the <body> is blurred, IE will switch windows, see #9520
+			// If the <body> <!-- Google Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WFCK4B8" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> <!-- End Google Tag Manager (noscript) --> is blurred, IE will switch windows, see #9520
 			if ( document.activeElement && document.activeElement.nodeName.toLowerCase() !== "body" ) {
 
 				// Blur any element that currently has focus, see #4261
@@ -8287,7 +8287,7 @@ var dialog = $.widget( "ui.dialog", {
 				activeElement = this.document[ 0 ].activeElement;
 
 				// Support: IE9, IE10
-				// If the <body> is blurred, IE will switch windows, see #4520
+				// If the <body> <!-- Google Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WFCK4B8" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> <!-- End Google Tag Manager (noscript) --> is blurred, IE will switch windows, see #4520
 				if ( activeElement && activeElement.nodeName.toLowerCase() !== "body" ) {
 
 					// Hiding a focused element doesn't trigger blur in WebKit
