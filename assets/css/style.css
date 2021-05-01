@@ -12,7 +12,7 @@ p ul {
     font-weight: 400;
     color: #7a7a7a;
     line-height: 30px;
-    list-style: disc;
+    list-style: disc !important;
 }
 
 a {
