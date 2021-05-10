@@ -542,6 +542,10 @@ Wrapper */ #wrapper {
     padding: 1em;
 }
 
+.red {
+    color: red;
+}
+
 .land {
     max-width: 400px;
 }
