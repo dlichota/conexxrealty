@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow: /sass
+Disallow: /assets
+Disallow: /vendor
+Sitemap: https://conexxrealty.com/sitemap.xml
